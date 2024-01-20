@@ -1,18 +1,10 @@
 # Spring Chess Puzzles
 
-Chess is a famous table game. This exercise is about representing chess board states as Spring configurations.
+Chess is a famous table game. This project is about representing chess board states as Spring configurations.
 
 ## Details
-Consider each chess piece as a particular object, that implements [ChessPiece](src/main/java/com/epam/rd/autotasks/chesspuzzles/ChessPiece.java) interface.
-Then a chess board state may be represented via Spring Application Context, that contains beans of chess pieces.
 
-Your task is to construct Spring Java Configurations to create such Application Contexts.
-A configuration must provide beans of chess pieces.
-The testing code use them to create an instance of [ChessBoard](src/main/java/com/epam/rd/autotasks/chesspuzzles/ChessBoard.java), which must present chess board state as a String.
-Implementing this interface and its static method `of` is your responsibility as well.
-
-You need to provide the following configurations 
-(put them into [com.epam.rd.autotasks.chesspuzzles.config](src/main/java/com/epam/rd/autotasks/chesspuzzles/config) package):
+([com.epam.rd.autotasks.chesspuzzles.config](src/main/java/com/epam/rd/autotasks/chesspuzzles/config) package):
 - Default
 - DefaultBlack
 - DefaultWhite
@@ -20,7 +12,6 @@ You need to provide the following configurations
 - Puzzle02
 - Puzzle03
 
-You may refer to board states, presented in related text files in [src/test/resources/boards](src/test/resources/boards)
 
 ### State String Symbols:
 
